@@ -23,7 +23,7 @@ This guide is broken down into specialized sections, each focusing on a critical
 
 1.  **Version Locking:** Always use a lockfile (`package-lock.json`, `pnpm-lock.yaml`, or `yarn.lock`) to ensure consistent environments.
 2.  **Minimal Dependencies:** Don't add a package for a task that can be easily solved with native Node.js APIs (e.g., `fs/promises`, `crypto`, or modern `fetch`).
-3.  **Security First:** Run `npm audit` or use `Snyk` as part of your CI/CD pipeline.
+3.  **Security First:** Run `npm audit` or use `Snyk` as part of your CI/CD pipeline. **Never hardcode API keys or secrets; use environment variables instead.**
 4.  **TypeScript by Default:** For any project intended to last more than 3 months, use TypeScript for its maintainability and self-documenting nature.
 
 ---

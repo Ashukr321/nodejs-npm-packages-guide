@@ -19,6 +19,9 @@ Call `require('dotenv').config()` at the very top of your entry file.
 
 ## 💻 Code Sample
 
+> [!CAUTION]
+> **NEVER** commit your `.env` file to version control. Add it to your `.gitignore` immediately to prevent leaking sensitive credentials.
+
 ```javascript
 // 1. Load variables at the earliest possible point
 require('dotenv').config();
@@ -33,6 +36,6 @@ console.log(`Server will run on port: ${port}`);
 /*
 PORT=5000
 DATABASE_URL=mongodb://localhost:27017/mydb
-API_KEY=sk_test_4eC39HqLyjWDarjtT1zdp7dc
+API_KEY=your_secret_api_key_here
 */
 ```
