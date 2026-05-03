@@ -27,4 +27,4 @@ This guide is broken down into specialized sections, each focusing on a critical
 4.  **TypeScript by Default:** For any project intended to last more than 3 months, use TypeScript for its maintainability and self-documenting nature.
 
 ---
-*Created with 10+ years of Node.js experience to help you build better backends.*
+
