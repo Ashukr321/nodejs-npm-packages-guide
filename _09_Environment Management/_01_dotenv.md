@@ -33,9 +33,4 @@ const port = process.env.PORT || 3000;
 console.log(`Server will run on port: ${port}`);
 
 // Example .env file content:
-/*
-PORT=5000
-DATABASE_URL=mongodb://localhost:27017/mydb
-API_KEY=your_secret_api_key_here
-*/
-```
+
